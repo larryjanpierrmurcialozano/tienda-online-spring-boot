@@ -1,5 +1,3 @@
-propietario: Larry Jan Pierr Murcia Lozano
-
 PARA COMPILAR Y EJECUTAR EL PROYECTO
 mvn clean compile
 mvn compile spring-boot:run
