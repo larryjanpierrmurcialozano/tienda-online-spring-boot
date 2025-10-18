@@ -16,6 +16,11 @@ public class TotalClienteDTO {
     // ===== CONSTRUCTORES =====
 
     /**
+     * Constructor vacío - requerido por JPA
+     */
+    public TotalClienteDTO() {}
+
+    /**
      * Constructor para la consulta JPQL
      * Este constructor es usado por la consulta en PedidoRepository
      */

@@ -101,15 +101,4 @@ public class Direccion {
     public void setCliente(Cliente cliente) {
         this.cliente = cliente;
     }
-
-    @Override
-    public String toString() {
-        return "Direccion{" +
-                "id=" + id +
-                ", calle='" + calle + '\'' +
-                ", ciudad='" + ciudad + '\'' +
-                ", pais='" + pais + '\'' +
-                ", zip='" + zip + '\'' +
-                '}';
-    }
 }

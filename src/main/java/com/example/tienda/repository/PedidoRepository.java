@@ -51,10 +51,11 @@ public interface PedidoRepository extends JpaRepository<Pedido, Long> {
      * CONSULTA IMPORTANTE: Calcular total gastado por cliente usando DTO
      * Esta consulta demuestra cómo usar proyecciones para optimizar consultas
      */
-    @Query("SELECT new com.example.tienda.dto.TotalClienteDTO(c.id, c.nombre, SUM(p.total)) " +
-           "FROM Pedido p JOIN p.cliente c " +
+    @Query("SELECT new com.example.tienda.dto.TotalClienteDTO(c.id, c.nombre, COALESCE(SUM(p.total), 0)) " +
+           "FROM Cliente c LEFT JOIN c.pedidos p " +
+           "WHERE p.estado != 'CANCELADO' OR p.estado IS NULL " +
            "GROUP BY c.id, c.nombre " +
-           "ORDER BY SUM(p.total) DESC")
+           "ORDER BY COALESCE(SUM(p.total), 0) DESC")
     List<TotalClienteDTO> findTotalPorCliente();
 
     /**

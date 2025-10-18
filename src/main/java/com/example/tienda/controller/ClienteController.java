@@ -129,7 +129,7 @@ public class ClienteController {
     }
 
     /**
-     * Clase para recibir datos de dirección
+     * Clase para recibir dato  s de dirección
      */
     public static class DireccionRequest {
         private String calle;
