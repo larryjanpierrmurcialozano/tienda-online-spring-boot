@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+el documento aaa es el postman
+
+propietario: Larry Jan Pierr Murcia Lozano
+
+>>>>>>> e5c6f56c973d89f4087aaa0768ccb2535fb5f8c6
 PARA COMPILAR Y EJECUTAR EL PROYECTO
 mvn clean compile
 mvn compile spring-boot:run
