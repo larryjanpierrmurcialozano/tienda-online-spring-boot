@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-=======
-el documento aaa es el postman
-
 propietario: Larry Jan Pierr Murcia Lozano
 
->>>>>>> e5c6f56c973d89f4087aaa0768ccb2535fb5f8c6
 PARA COMPILAR Y EJECUTAR EL PROYECTO
 mvn clean compile
 mvn compile spring-boot:run
@@ -86,4 +81,25 @@ ID  	NOMBRE 	    PRECIO
 1	Laptop Gaming	    1299.99	
 2	Mouse Inalámbrico	29.99	
 3	Teclado Mecánico	79.99	
-4	Smartphone	        699.99	
+4	Smartphone	        699.99
+
+
+primera imagen de postman
+![img_1.png](img_1.png)
+
+segunda imagen de postman
+![img_2.png](img_2.png)
+
+tercera imagen de postman
+![img_3.png](img_3.png)
+
+cuarta imagen de postman
+![img_4.png](img_4.png)
+
+quinta imagen de postman
+![img_5.png](img_5.png)
+
+sexta imagen de postman
+![img_6.png](img_6.png)
+
+

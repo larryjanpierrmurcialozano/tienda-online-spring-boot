@@ -7,7 +7,6 @@
 /home/larry/IdeaProjects/untitled/src/main/java/com/example/tienda/entity/Direccion.java
 /home/larry/IdeaProjects/untitled/src/main/java/com/example/tienda/service/ClienteService.java
 /home/larry/IdeaProjects/untitled/src/main/java/com/example/tienda/controller/ApiController.java
-/home/larry/IdeaProjects/untitled/src/main/java/com/example/tienda/config/DataInitializer.java
 /home/larry/IdeaProjects/untitled/src/main/java/com/example/tienda/entity/Producto.java
 /home/larry/IdeaProjects/untitled/src/main/java/com/example/tienda/repository/ClienteRepository.java
 /home/larry/IdeaProjects/untitled/src/main/java/com/example/tienda/dto/TotalClienteDTO.java
